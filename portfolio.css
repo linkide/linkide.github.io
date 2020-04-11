@@ -109,6 +109,7 @@ a {
 }
 a:hover {
   color: #a9b2b9;
+  text-decoration: none;
 }
 p a {
   border-bottom: 1px solid #dfe2e5;
