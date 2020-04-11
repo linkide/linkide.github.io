@@ -104,11 +104,11 @@ em {
 
 /*Links*/
 a {
-  color: rgb(212, 199, 161);
+  color: #fff;
   text-decoration: none;
 }
 a:hover {
-  color: #a9b2b9;
+  color: rgb(212, 199, 161);
   text-decoration: none;
 }
 p a {
@@ -130,9 +130,10 @@ p a {
 /*Hero*/
 
 .hero {
+  background: #16253D;
   color: #fff;
   line-height: 44px;
-  padding: 22px 80px 66px 80px;
+  padding: 70px 0px 0px 0px;
   text-align: center;
   min-height: calc(100% - 172px);
 }
@@ -265,7 +266,7 @@ hr{
   font-weight: 100;
   letter-spacing: .5px;
   line-height: 44px;
-  padding: 40px 0 22px 0;
+  /*padding: 40px 0 22px 0;*/
   text-transform: uppercase;
 }
 
