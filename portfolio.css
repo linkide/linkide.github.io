@@ -123,8 +123,8 @@ p a {
   color: rgb(212, 199, 161);
 }
 
-.nav {
-  text-align: right;
+.nav-link {
+  padding: 8px 8px;
 }
 
 /*Hero*/
@@ -173,8 +173,7 @@ p a {
 /*Rows*/
 
 .whiterow, .darkrow {
-  min-width: 960px;
-  padding: 66px 0 44px 0;
+  padding: 60px 0 40px 0;
   min-height: 100%;
 }
 
@@ -266,7 +265,7 @@ hr{
   font-weight: 100;
   letter-spacing: .5px;
   line-height: 44px;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 0px;
   text-transform: uppercase;
 }
 
