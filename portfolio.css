@@ -138,6 +138,13 @@ a:hover {
   border: 1px solid #fff;
   padding: 10px 30px;
 }
+
+.btn-alt-whiterow {
+  border: 1px solid #16253D;
+  color: #16253D;
+  padding: 10px 30px;
+}
+
 .btn-alt:hover {
   background: #fff;
   color: rgb(212, 199, 161);

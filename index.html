@@ -7,9 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!--JS for Bootstrap-->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
   <!-- Bootsrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -24,32 +30,33 @@
 <body>
   <!-- Navigation -->
   <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
-    </button>
-    <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
-      <ul class="nav primary-nav ml-auto flex-nowrap">
-        <li class="nav-item">
-          <a class="nav-link" href="#top">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work">Work</a>
-        </li>
-        <!--<li class="nav-item">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNavDropdown">
+        <ul class="nav primary-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+            <a class="nav-link" href="#top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <!--<li class="nav-item">
           <a class="nav-link" href="#projects">Projects</a>
         </li>-->
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
   <!-- Header -->
   <div class="container">
@@ -171,7 +178,36 @@
     <div class="row justify-content-center">
       <div class="col-md-4 text-center">
         <h2 class="h2-whiterow">Contact</h2>
-
+        <p class="p-whiterow">If there's anything I can help you with, don't hesitate to contact me.</p>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-2">
+              <a class="a-whiterow" href="mailto:luostarinenjasmin@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="col-md-2">
+              <a class="a-whiterow" href="www.linkedin.com/jasminluostarinen" target="new"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <div class="col-md-2">
+              <a class="a-whiterow" href="https://stackexchange.com/users/9887010/nirnroot" target="new"><i class="fab fa-stack-overflow fa-2x"></i></a>
+            </div>
+            <div class="col-md-2">
+              <a class="a-whiterow" href="https://github.com/linkide" target="new"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+<br>
+        <form>
+          <div class="form-group">
+            <input type="email" class="form-control" id="ContactName" aria-describedby="emailHelp" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="ContactEmail" aria-describedby="emailHelp" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="ContactTextarea" rows="5" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-alt-whiterow">Submit</button>
+        </form>
       </div>
     </div>
   </div>
