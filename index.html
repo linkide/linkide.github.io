@@ -25,6 +25,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;400&display=swap" rel="stylesheet">
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/6cb11c7953.js" crossorigin="anonymous"></script>
+  <script src="contact.js"></script>
 </head>
 
 <body>
@@ -181,35 +182,44 @@
         <p class="p-whiterow">If there's anything I can help you with, don't hesitate to contact me.</p>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-md-2">
+            <div class="col">
               <a class="a-whiterow" href="mailto:luostarinenjasmin@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
             </div>
-            <div class="col-md-2">
-              <a class="a-whiterow" href="www.linkedin.com/jasminluostarinen" target="new"><i
+            <div class="col">
+              <a class="a-whiterow" href="http://www.linkedin.com/in/jasminluostarinen" target="new"><i
                   class="fab fa-linkedin fa-2x"></i></a>
             </div>
-            <div class="col-md-2">
+            <div class="col">
               <a class="a-whiterow" href="https://stackexchange.com/users/9887010/nirnroot" target="new"><i
                   class="fab fa-stack-overflow fa-2x"></i></a>
             </div>
-            <div class="col-md-2">
+            <div class="col">
               <a class="a-whiterow" href="https://github.com/linkide" target="new"><i
                   class="fab fa-github fa-2x"></i></a>
             </div>
           </div>
         </div>
+      </div>
+    </div>
         <br>
-        <form>
+
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center">
+        <form id="contact-form" method="post" action="contact.php" role="form">
+          <div class="messages"></div>
           <div class="form-group">
-            <input type="email" class="form-control" id="ContactName" aria-describedby="emailHelp" placeholder="Name">
+            <input type="name" class="form-control" id="ContactName" required="required" aria-describedby="emailHelp" placeholder="Name">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" id="ContactEmail" aria-describedby="emailHelp" placeholder="Email">
+            <input type="email" class="form-control" id="ContactEmail" required="required" aria-describedby="emailHelp" placeholder="Email">
           </div>
           <div class="form-group">
-            <textarea class="form-control" id="ContactTextarea" rows="5" placeholder="Message"></textarea>
+            <textarea class="form-control" id="ContactTextarea" rows="5" required="required" placeholder="Message"></textarea>
           </div>
-          <button type="submit" class="btn btn-alt-whiterow">Submit</button>
+          <div class="help-block with-errors"></div>
+          <div class="col-md-12">
+          <button type="submit" class="btn btn-alt-whiterow" value="send message">Submit</button>
+        </div>
         </form>
       </div>
     </div>
@@ -224,7 +234,7 @@
     <div class="row justify-content-center">
       <p style="font-size:12px; margin-bottom:0">Layout styling customized from the <a
           href="https://learn.shayhowe.com/practice/setting-backgrounds-and-gradients/index.html" target="new">Styles Conference
-          website demo</a> by <a href="https://shayhowe.com/" target="new">Shay Howe</a>.</p>
+          website demo</a> by <a href="https://shayhowe.com/" target="new">Shay Howe</a></p>
     </div>
   </div>
 </div>
