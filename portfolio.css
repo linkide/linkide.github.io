@@ -20,6 +20,18 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+@media (max-width: 460px) {
+  h1.name {
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  a.btn.btn-alt {
+    padding: 8px 25px;
+  }
+}
+
 body {
   background: #16253D;
   font: 200 16px/22px "Assistant", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -159,7 +171,6 @@ a:hover {
 .name {
   float: left;
   font-size: 48px;
-  font-weight: 100;
   letter-spacing: .5px;
   line-height: 44px;
   padding: 0px 0px 0px 0px;
