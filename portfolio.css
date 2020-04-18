@@ -201,6 +201,11 @@ hr{
   margin-bottom: 50px;
 }
 
+.footer {
+  padding: 10px 10px;
+  color: #fff;
+}
+
 /*Work & projects: sliding cards*/
 #stay-in-place {
   height: 100%;
