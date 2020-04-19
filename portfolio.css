@@ -187,6 +187,10 @@ a:hover {
   min-height: 100%;
 }
 
+.row {
+  margin: auto;
+}
+
 .whiterow {
   background: #f1f1f2;
 }
